@@ -1,7 +1,10 @@
 import { createApp } from 'vue'
-import Header from '@/layout/Header.vue'
-import Sidebar from '@/layout/Sidebar.vue'
+import App from '@/App.vue';
 
-const app = createApp({})
+// nama komponen
+import Sidebar from '@/layout/components/Sidebar.vue'
+import Header from '@/layout/components/Header.vue'
 
+export const app = createApp(App);
 app.component('Sidebar', Sidebar)
+app.component('Header', Header)

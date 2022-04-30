@@ -1,7 +1,7 @@
 <template>
   <aside>
     <div class="logo">
-      <img src="@/assets/Images/Seeker.svg" alt="Vue" />
+      <img class="w-100" src="@/assets/Images/Seeker.svg" alt="Logo" />
     </div>
 
     <div class="menu">
@@ -66,10 +66,6 @@ aside {
 
   .logo {
     margin-bottom: 3rem;
-
-    img {
-      width: 2.5rem;
-    }
   }
 
   .menu {
